@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Treats for Testing Rankings!</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Treats for Testing Rankings!</h1>
+        <div id="ranking">
+            <div id ="first-place">
+                <p> First Place: {{ first }} </p>
+            </div>
+            <div id ="second-place">
+                <p> Second Place: {{ second }} </p>
+            </div>
+            <div id="third-place"></div>
+                <p> Third Place: {{ third }} </p>
+            </div>
+        </div>
+    <div id="graph">
+    
+    </div>
+    <footer>
+        <p> Team 19 </p>
+    </footer>
+</div>
+{% endblock %}
