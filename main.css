@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: serif;
+    background-color: #7FFFD4
 }
 
 h1 {
@@ -17,12 +18,16 @@ h1 {
 
 #first-place p {
     font-size: 200%;
+    text-align:center;
 }
 
 #second-place p {
     font-size: 175%;
+    text-align:center;
 }
 
 #third-place p {
-    font-size: 150%;
+    font-size: 160%;
+    text-align:center;
 }
+
